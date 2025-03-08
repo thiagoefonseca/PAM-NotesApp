@@ -16,6 +16,11 @@
         <ShellContent
              Title="Anotações"
              ContentTemplate="{DataTemplate local:NotePage}"
-             Route="NotePage" />    
+             Route="NotePage" />
+
+        <ShellContent
+            Title="SObre o aplicativo"
+            ContentTemplate="{DataTemplate local:AboutPage}"
+            Route="AboutPage" />
     </TabBar>
 </Shell>
